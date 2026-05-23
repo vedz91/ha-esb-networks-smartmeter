@@ -155,8 +155,8 @@ class ESBDataUpdateCoordinator(DataUpdateCoordinator[ESBData]):
         """Inject the last 15 days of interval data into HA's long-term statistics.
 
         Statistics are stored under external statistic IDs:
-          esb_smart_meter:{mprn}_import
-          esb_smart_meter:{mprn}_export
+          esb_networks_smartmeter:{mprn}_import
+          esb_networks_smartmeter:{mprn}_export
         These can be added to the Energy Dashboard as individual device sources.
         """
         try:
@@ -232,7 +232,7 @@ class ESBDataUpdateCoordinator(DataUpdateCoordinator[ESBData]):
                     "**Alternative:** Wait 24-48 hours for automatic clearance.\n\n"
                     f"📋 MPRN: `{self.mprn}`\n\n"
                     "This notification will clear automatically once data retrieval succeeds.\n\n"
-                    "**Need help?** See the [CAPTCHA Setup Guide](https://github.com/your-repo/blob/master/CAPTCHA-SETUP.md) "
+                    "**Need help?** See the [README](https://github.com/vedz91/ha-esb-networks-smartmeter/blob/main/README.md#captcha-handling) "
                     "for advanced cookie extraction methods."
                 ),
             },
