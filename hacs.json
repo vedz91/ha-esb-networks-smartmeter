@@ -1,7 +1,7 @@
 {
-  "name": "ESB Smart Meter",
+  "name": "ESB Networks Smart Meter",
   "content_in_root": false,
-  "filename": "esb_smart_meter",
+  "filename": "esb_networks_smartmeter",
   "country": ["IE"],
   "homeassistant": "2023.1.0",
   "render_readme": true,

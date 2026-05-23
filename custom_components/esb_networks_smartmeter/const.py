@@ -2,7 +2,7 @@
 
 from datetime import timedelta
 
-DOMAIN = "esb_smart_meter"
+DOMAIN = "esb_networks_smartmeter"
 
 # Configuration keys
 CONF_USERNAME = "username"
@@ -42,7 +42,7 @@ SESSION_VALIDATION_ENDPOINTS = [
 ]
 
 # CAPTCHA handling
-CAPTCHA_NOTIFICATION_ID = "esb_smart_meter_captcha"
+CAPTCHA_NOTIFICATION_ID = "esb_networks_smartmeter_captcha"
 CAPTCHA_COOLDOWN_HOURS = 24  # Don't spam notifications
 CONF_MANUAL_COOKIES = "manual_cookies"  # Config key for manual cookie input
 CONF_SESSION_COOKIES = "session_cookies"  # Config key for stored session cookies

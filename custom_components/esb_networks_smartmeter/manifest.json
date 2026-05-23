@@ -1,12 +1,12 @@
 {
-  "domain": "esb_smart_meter",
-  "name": "ESB Smart Meter",
-  "codeowners": ["@antoine-voiry"],
+  "domain": "esb_networks_smartmeter",
+  "name": "ESB Networks Smart Meter",
+  "codeowners": ["@vedz91"],
   "config_flow": true,
   "dependencies": [],
-  "documentation": "https://github.com/antoine-voiry/home-assistant-esb-smart-meter-integration",
+  "documentation": "https://github.com/vedz91/ha-esb-networks-smartmeter",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/antoine-voiry/home-assistant-esb-smart-meter-integration/issues",
+  "issue_tracker": "https://github.com/vedz91/ha-esb-networks-smartmeter/issues",
   "requirements": ["beautifulsoup4>=4.12.0"],
-  "version": "1.3.5"
+  "version": "1.0.0"
 }
