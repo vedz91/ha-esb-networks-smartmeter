@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/vedz91/ha-esb-networks-smartmeter/main/custom_components/esb_networks_smartmeter/brand/logo.png" alt="ESB Networks Smart Meter" width="200"/>
+</p>
+
 # ESB Networks Smart Meter
 
 Monitor your Irish electricity usage directly in Home Assistant.

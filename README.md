@@ -1,7 +1,7 @@
 # ESB Networks Smart Meter — Home Assistant Integration
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vedz91/ha-esb-networks-smartmeter/main/custom_components/esb_networks_smartmeter/images/logo.png" alt="ESB Networks Smart Meter" width="200"/>
+  <img src="https://raw.githubusercontent.com/vedz91/ha-esb-networks-smartmeter/main/custom_components/esb_networks_smartmeter/brand/logo.png" alt="ESB Networks Smart Meter" width="200"/>
 </p>
 
 [![HACS Custom](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/vedz91/ha-esb-networks-smartmeter)
